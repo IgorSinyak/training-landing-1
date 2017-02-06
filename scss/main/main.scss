@@ -251,7 +251,7 @@ nav {
           &:after {
             content: ''; 
             position: absolute;
-            left: 35%;
+            left: calc(50% - 20px);
             bottom: 0px;
             border: 20px solid transparent;
             border-bottom: 9px solid $blue;
